@@ -390,3 +390,7 @@ table.data td .pos { color: #4ade80; }
 /* make blog cards fully clickable as links */
 a.post-card { display:block; color:inherit; }
 a.post-card:hover { color:inherit; }
+/* Trainer email icon (About page) — links to email without showing the address */
+.trainer-email { display:inline-flex; align-items:center; justify-content:center; width:42px; height:42px; border:1px solid var(--line); border-radius:8px; color:var(--accent); margin-top:8px; transition:border-color .2s, color .2s, background .2s; }
+.trainer-email:hover { border-color:var(--accent); color:#fff; background:rgba(255,148,132,.1); }
+.trainer-email svg { width:20px; height:20px; }
