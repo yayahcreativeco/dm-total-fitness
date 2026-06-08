@@ -401,6 +401,6 @@ a.post-card:hover { color:inherit; }
 .story-img { aspect-ratio:auto; height:auto; object-fit:initial; box-shadow:var(--shadow); }
 /* About page — Our Story photo */
 .story-img { width:100%; height:auto; display:block; border-radius:var(--radius); border:1px solid var(--line); box-shadow:var(--shadow); }
-/* Cap display size so the photo isn't magnified past its real resolution (keeps it crisp) */
-.story-img { max-width:440px; margin:0 auto; }
-@media (max-width:900px){ .story-img { max-width:360px; } }
+/* High-res photo — fill the column, capped so it never exceeds the asset's real width */
+.story-img { max-width:560px; margin:0 auto; }
+@media (max-width:900px){ .story-img { max-width:460px; } }
