@@ -390,10 +390,10 @@ table.data td .pos { color: #4ade80; }
 /* make blog cards fully clickable as links */
 a.post-card { display:block; color:inherit; }
 a.post-card:hover { color:inherit; }
-/* Trainer email icon (About page) — links to email without showing the address */
-.trainer-email { display:inline-flex; align-items:center; justify-content:center; width:42px; height:42px; border:1px solid var(--line); border-radius:8px; color:var(--accent); margin-top:8px; transition:border-color .2s, color .2s, background .2s; }
+/* Trainer email button (About page) — icon + label, links to email without showing the address */
+.trainer-email { display:inline-flex; align-items:center; gap:9px; padding:10px 18px; border:1px solid var(--line); border-radius:8px; color:var(--accent); font-family:var(--head); text-transform:uppercase; letter-spacing:1px; font-size:.82rem; margin-top:10px; transition:border-color .2s, color .2s, background .2s; }
 .trainer-email:hover { border-color:var(--accent); color:#fff; background:rgba(255,148,132,.1); }
-.trainer-email svg { width:20px; height:20px; }
+.trainer-email svg { width:18px; height:18px; flex-shrink:0; }
 /* Owners photo in the About "Our Story" section */
 .story-img { width:100%; aspect-ratio:4/5; object-fit:cover; object-position:center 22%; border-radius:var(--radius); border:1px solid var(--line); display:block; }
 @media (max-width:900px){ .story-img { aspect-ratio:4/3; } }
