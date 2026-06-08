@@ -394,3 +394,10 @@ a.post-card:hover { color:inherit; }
 .trainer-email { display:inline-flex; align-items:center; justify-content:center; width:42px; height:42px; border:1px solid var(--line); border-radius:8px; color:var(--accent); margin-top:8px; transition:border-color .2s, color .2s, background .2s; }
 .trainer-email:hover { border-color:var(--accent); color:#fff; background:rgba(255,148,132,.1); }
 .trainer-email svg { width:20px; height:20px; }
+/* Owners photo in the About "Our Story" section */
+.story-img { width:100%; aspect-ratio:4/5; object-fit:cover; object-position:center 22%; border-radius:var(--radius); border:1px solid var(--line); display:block; }
+@media (max-width:900px){ .story-img { aspect-ratio:4/3; } }
+/* show the owners photo in full (no crop) */
+.story-img { aspect-ratio:auto; height:auto; object-fit:initial; box-shadow:var(--shadow); }
+/* About page — Our Story photo */
+.story-img { width:100%; height:auto; display:block; border-radius:var(--radius); border:1px solid var(--line); box-shadow:var(--shadow); }
