@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Dashboard | DM Total Fitness</title>
+  <meta name="description" content="DM Total Fitness member dashboard — track your progress." />
+  <link rel="icon" type="image/png" href="../assets/img/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../assets/css/style.css" />
+</head>
+<body class="portal-body">
+
+  <!-- HEADER -->
+  <header class="portal-header">
+    <div class="container nav">
+      <a class="brand" href="../index.html">
+        <img src="../assets/img/logo.png" alt="DM Total Fitness logo" />
+        <span class="brand-name">DM Total Fitness<small>MEMBER PORTAL</small></span>
+      </a>
+      <div class="portal-user">
+        <span class="name">Jordan R.</span>
+        <span class="avatar">JR</span>
+        <a class="logout" href="index.html">Log Out</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="portal-main">
+    <div class="container">
+
+      <div class="welcome">
+        <h1>Welcome back, Jordan</h1>
+        <p>Here's how your training is trending. Last check-in with your trainer: May 28, 2026.</p>
+      </div>
+
+      <!-- KEY METRICS -->
+      <div class="metric-grid">
+        <div class="metric">
+          <div class="label">Current Weight</div>
+          <div class="val">182 lbs</div>
+          <div class="delta down">▼ 16 lbs since January</div>
+        </div>
+        <div class="metric">
+          <div class="label">Body Fat</div>
+          <div class="val">19%</div>
+          <div class="delta down">▼ 6% since January</div>
+        </div>
+        <div class="metric">
+          <div class="label">Sessions This Month</div>
+          <div class="val">11</div>
+          <div class="delta up">▲ 3 vs. last month</div>
+        </div>
+        <div class="metric">
+          <div class="label">Goal Progress</div>
+          <div class="val">80%</div>
+          <div class="delta up">Target: 175 lbs</div>
+        </div>
+      </div>
+
+      <!-- WEIGHT CHART + MEASUREMENTS -->
+      <div class="panel-grid">
+        <div class="panel">
+          <h2>Weight Progress</h2>
+          <svg class="chart" viewBox="0 0 600 250" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Weight progress chart from 198 to 182 pounds">
+            <!-- gridlines -->
+            <line class="grid-line" x1="40" y1="40"  x2="585" y2="40"/>
+            <line class="grid-line" x1="40" y1="90"  x2="585" y2="90"/>
+            <line class="grid-line" x1="40" y1="140" x2="585" y2="140"/>
+            <line class="grid-line" x1="40" y1="190" x2="585" y2="190"/>
+            <!-- y labels -->
+            <text x="8" y="44">200</text>
+            <text x="8" y="144">190</text>
+            <text x="8" y="194">185</text>
+            <!-- area + line -->
+            <polygon class="area" points="40,39 148,77 256,106 364,134 472,162 580,191 580,210 40,210"/>
+            <polyline class="line" points="40,39 148,77 256,106 364,134 472,162 580,191"/>
+            <!-- dots -->
+            <circle class="dot" cx="40"  cy="39"  r="4"/>
+            <circle class="dot" cx="148" cy="77"  r="4"/>
+            <circle class="dot" cx="256" cy="106" r="4"/>
+            <circle class="dot" cx="364" cy="134" r="4"/>
+            <circle class="dot" cx="472" cy="162" r="4"/>
+            <circle class="dot" cx="580" cy="191" r="4"/>
+            <!-- x labels -->
+            <text x="40"  y="232" text-anchor="middle">Jan</text>
+            <text x="148" y="232" text-anchor="middle">Feb</text>
+            <text x="256" y="232" text-anchor="middle">Mar</text>
+            <text x="364" y="232" text-anchor="middle">Apr</text>
+            <text x="472" y="232" text-anchor="middle">May</text>
+            <text x="580" y="232" text-anchor="middle">Jun</text>
+          </svg>
+          <p class="hint">Down 16 lbs over 6 months — steady, sustainable progress.</p>
+        </div>
+
+        <div class="panel">
+          <h2>Measurements</h2>
+          <table class="data">
+            <thead>
+              <tr><th>Area</th><th>Start</th><th>Now</th><th>Change</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Waist</td><td>38"</td><td>34"</td><td class="pos">−4"</td></tr>
+              <tr><td>Chest</td><td>42"</td><td>43"</td><td class="pos">+1"</td></tr>
+              <tr><td>Arms</td><td>14.5"</td><td>15.5"</td><td class="pos">+1"</td></tr>
+              <tr><td>Thighs</td><td>23"</td><td>24"</td><td class="pos">+1"</td></tr>
+              <tr><td>Hips</td><td>41"</td><td>38"</td><td class="pos">−3"</td></tr>
+            </tbody>
+          </table>
+          <p class="hint">Last measured by your trainer on May 28, 2026.</p>
+        </div>
+      </div>
+
+      <!-- STRENGTH + PROGRESS PHOTOS -->
+      <div class="panel-grid">
+        <div class="panel">
+          <h2>Strength Progress</h2>
+          <div class="lift">
+            <div class="row"><strong>Back Squat</strong><span>185 → 245 lbs</span></div>
+            <div class="bar"><i style="width:82%"></i></div>
+          </div>
+          <div class="lift">
+            <div class="row"><strong>Bench Press</strong><span>135 → 175 lbs</span></div>
+            <div class="bar"><i style="width:70%"></i></div>
+          </div>
+          <div class="lift">
+            <div class="row"><strong>Deadlift</strong><span>225 → 315 lbs</span></div>
+            <div class="bar"><i style="width:90%"></i></div>
+          </div>
+          <div class="lift">
+            <div class="row"><strong>Overhead Press</strong><span>85 → 110 lbs</span></div>
+            <div class="bar"><i style="width:60%"></i></div>
+          </div>
+          <p class="hint">Bars show progress toward your current strength goals.</p>
+        </div>
+
+        <div class="panel">
+          <h2>Progress Photos</h2>
+          <div class="photo-grid">
+            <div class="photo"><span class="tag">JAN</span>Front view</div>
+            <div class="photo"><span class="tag">MAR</span>Front view</div>
+            <div class="photo"><span class="tag">MAY</span>Front view</div>
+            <div class="photo"><span class="tag">JUN</span>Front view</div>
+          </div>
+          <p class="hint">Photos are private — visible only to you and your trainer. Upload new ones at any check-in.</p>
+        </div>
+      </div>
+
+      <!-- BILLING -->
+      <div class="panel">
+        <h2>Billing &amp; Membership</h2>
+        <div class="panel-grid" style="margin:0;">
+          <div>
+            <div class="billing-row"><span>Plan</span><span>Access + Personal Training</span></div>
+            <div class="billing-row"><span>24/7 Gym Access</span><span>$__ / month</span></div>
+            <div class="billing-row"><span>Personal Training (8 sessions)</span><span>$__ / month</span></div>
+            <div class="billing-row"><span>Status</span><span><span class="badge-pill">Active</span></span></div>
+            <div class="billing-row"><span>Next Payment</span><span>June 15, 2026</span></div>
+            <div class="billing-row"><span>Payment Method</span><span>Visa ending 4242</span></div>
+            <p class="hint" style="margin-top:14px;">In the live portal, members can update their card, view invoices, and manage their plan here.</p>
+            <a href="#" class="btn btn-ghost" style="margin-top:8px;">Manage Payment Method</a>
+          </div>
+          <div>
+            <h3 style="font-size:1rem;color:#fff;margin-bottom:14px;">Recent Invoices</h3>
+            <table class="data">
+              <thead><tr><th>Date</th><th>Amount</th><th>Status</th></tr></thead>
+              <tbody>
+                <tr><td>May 15, 2026</td><td>$___</td><td class="pos">Paid</td></tr>
+                <tr><td>Apr 15, 2026</td><td>$___</td><td class="pos">Paid</td></tr>
+                <tr><td>Mar 15, 2026</td><td>$___</td><td class="pos">Paid</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <p class="center" style="margin-top:30px;color:var(--gray-dim);font-size:.88rem;">
+        This is a sample dashboard with placeholder data to show the vision. The live portal would connect to real member records managed by Damon &amp; Markus.
+      </p>
+
+    </div>
+  </main>
+
+</body>
+</html>

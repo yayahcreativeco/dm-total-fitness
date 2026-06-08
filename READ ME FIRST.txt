@@ -1,0 +1,60 @@
+============================================================
+   DM TOTAL FITNESS  —  WEBSITE PREVIEW
+   How to view the website on your computer
+============================================================
+
+This is a preview of your new website. It runs right from your
+computer — it is NOT live on the internet yet. You can click
+through every page exactly like a real website.
+
+------------------------------------------------------------
+TO OPEN IT (takes 10 seconds):
+------------------------------------------------------------
+
+1. UNZIP this folder if you haven't already.
+   - On Windows: right-click the .zip file > "Extract All"
+   - On Mac: double-click the .zip file
+
+2. Open the unzipped "DM-Total-Fitness-Website" folder.
+
+3. Find the file named:  index.html
+   (This is the HOME page. It may just show as "index".)
+
+4. DOUBLE-CLICK index.html.
+   It will open in your web browser (Chrome, Safari, Edge, etc.).
+
+That's it — you're now viewing the website!
+
+------------------------------------------------------------
+HOW TO LOOK AROUND:
+------------------------------------------------------------
+
+- Use the MENU at the top (Home, About, Services, Blog,
+  Contact) to move between pages — just like a real site.
+
+- To see the MEMBER PORTAL demo:
+    1. Click "Member Login" in the top menu.
+    2. Click the "Log In" button (any email/password works —
+       it's a demo).
+    3. You'll see a sample client dashboard with weight,
+       measurements, strength progress, photos, and billing.
+       (The numbers are placeholders to show the idea.)
+
+- Try it on your PHONE too: the site adjusts to fit any screen.
+
+------------------------------------------------------------
+GOOD TO KNOW:
+------------------------------------------------------------
+
+- Best viewed in Google Chrome, Microsoft Edge, Safari, or
+  Firefox. (Keep your internet on so the map and fonts load.)
+
+- The contact form is a demo — it pops up a confirmation but
+  doesn't send email yet. On the live site it will email you.
+
+- A few spots are intentionally left blank for you to fill in:
+  your bios, your photos, and your pricing. Just send those
+  over to Sama whenever you're ready.
+
+Questions? Reply to Sama's email anytime.
+============================================================
