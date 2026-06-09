@@ -415,3 +415,9 @@ a.post-card:hover { color:inherit; }
 .team-card .team-body { padding:20px 28px 28px; }
 .team-card .team-body p { text-align:left; }
 .team-card .trainer-email { margin:0 auto; }
+
+/* Homepage "For Trainers" teaser band */
+.trainer-cta { max-width:780px; margin:0 auto; text-align:center; background:var(--panel); border:1px solid var(--red); border-radius:var(--radius); padding:48px 36px; box-shadow:var(--shadow); }
+.trainer-cta h2 { font-size:clamp(1.8rem,4vw,2.5rem); }
+.trainer-cta p { max-width:620px; margin:0 auto 26px; }
+@media (max-width:600px){ .trainer-cta { padding:36px 22px; } }
